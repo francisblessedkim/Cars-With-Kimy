@@ -1,0 +1,77 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styling to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style sections */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style section headings */
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style section content */
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Style ordered list in the "Inspiration for the Site" section */
+section.inspiration ol {
+    padding-left: 20px;
+}
+
+/* Style list items in the "Inspiration for the Site" section */
+section.inspiration li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style unordered list in the "Accessibility" section */
+section.accessibility ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Style list items in the "Usability" section */
+section.usability ol {
+    padding-left: 20px;
+}
+
+/* Style list items in the "Things I Learned" section */
+section.things-learned ul {
+    padding-left: 20px;
+}
+
+/* Add additional styles as needed */
